@@ -80,3 +80,26 @@ prompting the program to start.
 
 
 
+
+
+## Running the Project with Docker
+
+To simplify the installation process and avoid system dependency issues, you can use Docker to run the project.
+
+### Step 1: Build the Docker Image
+
+Run the following command in the project root directory to build the Docker image:
+
+```bash
+docker build -t metaprivbids .
+```
+
+### Step 2: Run the Docker Container
+
+After building the image, you can run the project with:
+
+```bash
+docker run -it --rm metaprivbids
+```
+
+This command will start the Docker container and run the project.
